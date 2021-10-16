@@ -11,6 +11,8 @@
 
 //CODE HERE
 
+let gitDefinition = "Git is verison control system that helps you track changes made to your code."
+
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
@@ -18,6 +20,8 @@
 */
 
 //CODE HERE
+
+let gitHubDefinition = "Github is graphical user interace built on top of Git that helps you manage remote repositores and see changes made to code."
 
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
@@ -35,6 +39,11 @@
 
 //CODE HERE
 
+const init = {
+    description: "Creates an empty Git repository or reinitialize an existing one.",
+    code: "git init",
+}
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
@@ -42,7 +51,10 @@
 */
 
 //CODE HERE
-
+const clone = {
+    description:"Clones a repository into a newly created directory.",
+    code: "git clone <repo-url>",
+} 
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
@@ -51,6 +63,11 @@
 
 //CODE HERE
 
+const status = {
+    description: "Tracks the files that have been modified and shows files that have been staged for the next commit.",
+    code: "git status",
+}
+
 //////////////////PROBLEM 6////////////////////
 /*
     Create an object called 'add' with 'description' and 'code' properties 
@@ -58,7 +75,10 @@
 */
 
 //CODE HERE
-
+const add = {
+    description: "Adds modified files to staging area before they are committed.",
+    code: "git add <files>",
+}
 //////////////////PROBLEM 7////////////////////
 /*
     Create an object called 'commit' with 'description' and 'code' properties
@@ -66,7 +86,10 @@
 */
 
 //CODE HERE
-
+const commit = {
+    description: "Saves changes made to modified file to the local repository and allows user to provide a detail message for the changes.",
+    code: "git commit -m 'message' ",
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,3 +98,8 @@
 */
 
 //CODE HERE
+
+const push = {
+    description: "Updates remote repository with commited changes from local repository",
+    code: "git push"
+}
