@@ -101,5 +101,5 @@ const commit = {
 
 const push = {
     description: "Updates remote repository with commited changes from local repository",
-    code: "git push"
+    code: "git push",
 }
